@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Point Adder</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="container">
+            <div class="section">
+                <h3>HOME</h3>
+                <div id="homeScore" class="score-box">0</div>
+                <button id="add1">+1</button>
+                <button id="add2">+2</button>
+                <button id="add3">+3</button>
+            </div>
+            <div class="timer">
+                <div id="timer" class="timer-box">00:00</div>
+                <button id="pauseTimer">Pause Timer</button> <!-- New button added here -->
+            </div>
+            <div class="section">
+                <h3>GUEST</h3>
+                <div id="guestScore" class="score-box">0</div>
+                <button id="add1b">+1</button>
+                <button id="add2b">+2</button>
+                <button id="add3b">+3</button>
+            </div>
+        </div>
+        <div class="new-game">
+            <button id="newGame">New Game</button>
+        </div>
+        <div class="winner">
+            <p id="winnerText"></p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
